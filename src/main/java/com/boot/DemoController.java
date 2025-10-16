@@ -14,7 +14,7 @@ public class DemoController {
 	@ResponseBody
 	@RequestMapping("/")
 	public String home() {
-		log.info("Boot Gradle 111 222~!!!");
+		log.info("Boot Gradle 111 222 333~!!!");
 		
 		return "gradle";
 //		return "hello";
